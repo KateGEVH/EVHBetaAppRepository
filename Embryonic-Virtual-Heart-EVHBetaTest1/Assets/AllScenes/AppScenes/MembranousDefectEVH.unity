@@ -600,7 +600,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Membranous Interventricular Septum Defect
+  m_Text: Membranous Interventricular Septal Defect
 --- !u!222 &90635068
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3685,7 +3685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: " Membranous Interventricular\n Septum Defect"
+  m_Text: " Membranous Interventricular\n Septal Defect"
 --- !u!222 &1614103926
 CanvasRenderer:
   m_ObjectHideFlags: 0
