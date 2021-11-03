@@ -980,8 +980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -116.704834}
-  m_SizeDelta: {x: 1080, y: 40}
+  m_AnchoredPosition: {x: 0, y: 170}
+  m_SizeDelta: {x: -140, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429954743
 MonoBehaviour:
@@ -2063,7 +2063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 670, y: 850}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853914620
@@ -2906,8 +2906,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -116.704834}
-  m_SizeDelta: {x: 1080, y: 40}
+  m_AnchoredPosition: {x: 0, y: 170}
+  m_SizeDelta: {x: -140, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1118573013
 MonoBehaviour:
@@ -2921,7 +2921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af17ccbd4317e49cc8ec2324edac88d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
+  videoPlayer: {fileID: 1129165305}
 --- !u!114 &1118573014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3119,7 +3119,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -673}
+  m_AnchoredPosition: {x: 0, y: -630}
   m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129165304
@@ -3145,7 +3145,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129165302}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 774c84487bbd24f98b1b5393b385d867, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 309c6649357b04426a1c1f3dd2105dd4, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3154,7 +3154,7 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 2
+  m_AspectRatio: 0
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2

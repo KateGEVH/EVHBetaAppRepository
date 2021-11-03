@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -330}
-  m_SizeDelta: {x: 175, y: 175}
+  m_AnchoredPosition: {x: 0, y: -460}
+  m_SizeDelta: {x: 130, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147303618
 MonoBehaviour:
@@ -1060,7 +1060,8 @@ MonoBehaviour:
     Virtual Heart Models created by Marissa Hight, MS.\n\nApplication created by
     Katherine Gustilo, MS Candidate.\n\nAdult Heart Model provided by Dr. Carlos
     Esteves, MD, cardiologist. \n\nProject Director: Dr. Lisa M.J. Lee, PhD\n\nInstitution:
-    Modern Human Anatomy Program at CU Anschutz\n\n"
+    Modern Human Anatomy Program at CU Anschutz\n\nContact Katherine Gustilo at katherine.gustilo@cuanschutz.edu
+    \nfor any questions.\n\n"
 --- !u!222 &1984151634
 CanvasRenderer:
   m_ObjectHideFlags: 0
