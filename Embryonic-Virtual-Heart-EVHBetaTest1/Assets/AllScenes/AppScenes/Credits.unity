@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchoredPosition: {x: 0, y: -330}
+  m_SizeDelta: {x: 175, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147303618
 MonoBehaviour:
@@ -1056,24 +1056,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'You have completed the Embryonic Virtual Heart Learning Module!
-
-
-    Embryonic
-    Virtual Heart Model created by Marissa Hight, MS.
-
-
-    Application created by
-    Katherine Gustilo, MS Candidate.
-
-
-    Project Director: Dr. Lisa M.J. Lee, PhD
-
-
-    Institution:
-    Modern Human Anatomy Program at CU Anschutz
-
-'
+  m_Text: "You have completed the Embryonic Virtual Heart Learning Module!\n\nEmbryonic
+    Virtual Heart Models created by Marissa Hight, MS.\n\nApplication created by
+    Katherine Gustilo, MS Candidate.\n\nAdult Heart Model provided by Dr. Carlos
+    Esteves, MD, cardiologist. \n\nProject Director: Dr. Lisa M.J. Lee, PhD\n\nInstitution:
+    Modern Human Anatomy Program at CU Anschutz\n\n"
 --- !u!222 &1984151634
 CanvasRenderer:
   m_ObjectHideFlags: 0
