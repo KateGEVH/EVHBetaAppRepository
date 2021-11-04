@@ -10,6 +10,7 @@ public class VideoTutorialOpenScript : MonoBehaviour
     public Button videotutorialbtn;
     public Button closebtn;
     public GameObject videotutorialpopup;
+    public GameObject evhmodel;
 
     //Start is called before the first frame update
 
@@ -23,13 +24,14 @@ public class VideoTutorialOpenScript : MonoBehaviour
 
     public void VideoTutorialOpen()
     {
-
+        evhmodel.SetActive(false);   
         videotutorialpopup.SetActive(true);
         Debug.Log("The video screen is up!");
     }
 
     public void VideoTutorialClose()
     {
+        evhmodel.SetActive(true);
         videotutorialpopup.SetActive(false);
     }
 

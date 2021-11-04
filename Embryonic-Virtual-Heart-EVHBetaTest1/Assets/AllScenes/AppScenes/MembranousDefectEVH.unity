@@ -916,7 +916,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 2.5
   m_Range: 10
   m_SpotAngle: 43
   m_InnerSpotAngle: 21.80208
@@ -2260,7 +2260,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.3
+  m_Intensity: 2.3
   m_Range: 10
   m_SpotAngle: 43
   m_InnerSpotAngle: 21.80208
@@ -2541,7 +2541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1140346145
 Transform:
   m_ObjectHideFlags: 0
@@ -2647,7 +2647,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 43
   m_InnerSpotAngle: 21.80208
@@ -3904,7 +3904,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 43
   m_InnerSpotAngle: 21.80208
@@ -4137,7 +4137,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.2
+  m_Intensity: 2.2
   m_Range: 10
   m_SpotAngle: 43
   m_InnerSpotAngle: 21.80208
@@ -4592,6 +4592,7 @@ MonoBehaviour:
   videotutorialbtn: {fileID: 1872112710}
   closebtn: {fileID: 1835066872}
   videotutorialpopup: {fileID: 1044802018}
+  evhmodel: {fileID: 253710821}
 --- !u!1 &1907539221
 GameObject:
   m_ObjectHideFlags: 0
