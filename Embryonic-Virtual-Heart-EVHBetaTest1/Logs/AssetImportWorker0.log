@@ -1,1127 +1,550 @@
-Unity Editor version:    2021.1.21f1 (f2d5d3c59f8c)
-Branch:                  2021.1/staging
+Unity Editor version:    6000.4.0f1 (8cf496087c8f)
+Branch:                  6000.4/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 10.15.1 (Build 19B88)
-Darwin version:          19.0.0
-Architecture:            x86_64
+macOS version:           Version 26.2 (Build 25C56)
+Darwin version:          25.2.0
+Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Using pre-set license
-Pro License: NO
-Pro License: NO
+Date:                    2026-03-25T22:36:26Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo" at "2026-03-25T22:36:26.800195Z"
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.1.21f1/Unity.app/Contents/MacOS/Unity
+/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/katherinegustilo/Documents/MSMHA/Independent Study - Lee/GitHub/EVHBetaApp1/Embryonic-Virtual-Heart-EVHBetaTest1
+/Users/nicholasgustilo/Documents/GitHub/EVHBetaAppRepository/Embryonic-Virtual-Heart-EVHBetaTest1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57180
-Successfully changed project path to: /Users/katherinegustilo/Documents/MSMHA/Independent Study - Lee/GitHub/EVHBetaApp1/Embryonic-Virtual-Heart-EVHBetaTest1
-/Users/katherinegustilo/Documents/MSMHA/Independent Study - Lee/GitHub/EVHBetaApp1/Embryonic-Virtual-Heart-EVHBetaTest1
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.1.21f1 (f2d5d3c59f8c)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.21f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/katherinegustilo/Documents/MSMHA/Independent Study - Lee/GitHub/EVHBetaApp1/Embryonic-Virtual-Heart-EVHBetaTest1/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-2021-11-15 20:25:38.851 Unity[16160:774466] Color LCD preferred device: Intel(R) HD Graphics 615 (low power)
-2021-11-15 20:25:38.851 Unity[16160:774466] Metal devices available: 1
-2021-11-15 20:25:38.851 Unity[16160:774466] 0: Intel(R) HD Graphics 615 (low power)
-2021-11-15 20:25:38.852 Unity[16160:774466] Using device Intel(R) HD Graphics 615 (low power)
-Initializing Metal device caps: Intel(R) HD Graphics 615
+53466
+-licensingIpc
+LicenseClient-nicholasgustilo
+-force-metal
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/nicholasgustilo/Documents/GitHub/EVHBetaAppRepository/Embryonic-Virtual-Heart-EVHBetaTest1
+/Users/nicholasgustilo/Documents/GitHub/EVHBetaAppRepository/Embryonic-Virtual-Heart-EVHBetaTest1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8770284608]  Target information:
+
+Player connection [8770284608]  * "[IP] 192.168.1.81 [Port] 0 [Flags] 2 [Guid] 241557166 [EditorId] 241557166 [Version] 1048832 [Id] OSXEditor(0,Simon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8770284608] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8770284608] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1540, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-nicholasgustilo"
+[Licensing::IpcConnector] LicenseClient-nicholasgustilo channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0" at "2026-03-25T22:36:27.911345Z"
+Active build profile path: `Assets/Settings/Build Profiles/iOS.asset`
+Got setting from build profile YAML, name `Color Space`, value `0`
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 95624, path: "/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              355a50e373834cbfb5b16a9c63565f31
+  Correlation Id:          53e9a11a7b60f6c5a5b4db7226480240
+  External correlation Id: 4753846327921626207
+  Machine Id:              Bm9FVMovfwOWhrAevreLt82Tny4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nicholasgustilo-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0-notifications" at "2026-03-25T22:36:27.94078Z"
+[Licensing::Module] Licensing Background thread has ended after 1.14s
+[Licensing::Module] Licensing is initialized (took 0.02s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2473911338657-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Got setting from build profile YAML, name `m_BuildTarget`, value `9`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nicholasgustilo/Documents/GitHub/EVHBetaAppRepository/Embryonic-Virtual-Heart-EVHBetaTest1/Assets
+Forcing GfxDevice: Metal
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M2 Pro (high power)
+Metal devices available: 1
+0: Apple M2 Pro (high power)
+Using device Apple M2 Pro (high power)
+Initializing Metal device caps: Apple M2 Pro
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Mac GPU Family: 2
+Apple GPU Family: 8
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `m_Development`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.21f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.1.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Mono path[0] = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.1.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000679 seconds.
+Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2473911338657-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.006659 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Android Extension - Scanning For ADB Devices 77 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 42.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Completed reload, in  2.239 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2239ms)
-		BeginReloadAssembly (64ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (631ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (246ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.001554 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.650 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1651ms)
-		BeginReloadAssembly (218ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1330ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (440ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (577ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (506ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1105ms
+	BeginReloadAssembly (118ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (125ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (236ms)
+	FinalizeReload (602ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (206ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.0 MB.
-System memory in use after: 187.0 MB.
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Got setting from build profile YAML, name `m_Development`, value `0`
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2473911338657-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Embryonic Virtual Heart
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 1095ms
+	BeginReloadAssembly (234ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (195ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (87ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (450ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Launching external process: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4206 unused Assets / (6.2 MB). Loaded Objects now: 4805.
+Memory consumption went from 119.1 MB to 113.0 MB.
+Total: 6.087458 ms (FindLiveObjects: 0.210041 ms CreateObjectMapping: 0.139125 ms MarkObjects: 4.269125 ms  DeleteObjects: 1.468667 ms)
 
-Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 2316.
-Total: 3.950676 ms (FindLiveObjects: 0.183761 ms CreateObjectMapping: 0.066135 ms MarkObjects: 3.565466 ms  DeleteObjects: 0.134320 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 25232.931793 seconds.
+  path: Assets/Settings/Build Profiles/iOS.asset
+  importAddress: Guid(5bc7f66544c594de3bf6bca2e3d11609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Build Profiles/iOS.asset using Guid(5bc7f66544c594de3bf6bca2e3d11609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4afa972a03f8ba0195f47ed03f0a29ca') in 0.078724958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92efd78cba8becccc07d39d2685b8a81 DependenciesID=2811c0c2651b3fa6193f1c046f59e591 StaticDependenciesID=a2df791de4a90ad8b76c2aa70ed0ed20 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/AllScenes/AppScenes/Credits 1.unity
-  artifactKey: Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Credits 1.unity using Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00b99bfc3e4428312fc4671f15860e7') in 0.007329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 127.954240 seconds.
-  path: Assets/AllScenes/AppScenes/Citations.unity
-  artifactKey: Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Citations.unity using Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78a53aacc5a57454ec3ccaf87bfe5c8') in 0.003079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 792.714015 seconds.
-  path: Assets/AllScenes/AppScenes/f.unity
-  artifactKey: Guid(e8d8200c34d7e45edb9644722b102d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/f.unity using Guid(e8d8200c34d7e45edb9644722b102d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0791d3b5073e243935fb14cbf65fdb93') in 0.003094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.835076 seconds.
-  path: Assets/AllScenes/AppScenes/Citations.unity
-  artifactKey: Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Citations.unity using Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6df7167af3d37e427f1a45fa1c78b5') in 0.004564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.075965 seconds.
-  path: Assets/AllScenes/AppScenes/Credits.unity
-  artifactKey: Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Credits.unity using Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee73e068bc5e56d62937dc778d821d2') in 0.002101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.788118 seconds.
-  path: Assets/AllScenes/AppScenes/Citations.unity
-  artifactKey: Guid(e8d8200c34d7e45edb9644722b102d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Citations.unity using Guid(e8d8200c34d7e45edb9644722b102d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6770399c7a1e35508d8ca1a486ddebe') in 0.003033 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Settings/Build Profiles/Android™.asset
+  importAddress: Guid(882ee60b6634649d4991da7a4db80400) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Build Profiles/Android™.asset using Guid(882ee60b6634649d4991da7a4db80400) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd0c5797953804b4f9737bc9a97c0644f') in 0.005244125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f9b58779e778ce79e735a654510d461 DependenciesID=e072bb3ef9bf27e876b1f0246fcf4086 StaticDependenciesID=23c09c5ce030ef0526ee32caebe84b82 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002080 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (4.1 MB). Loaded Objects now: 4806.
+Memory consumption went from 115.9 MB to 111.8 MB.
+Total: 83.154417 ms (FindLiveObjects: 2.242042 ms CreateObjectMapping: 0.072958 ms MarkObjects: 66.500959 ms  DeleteObjects: 14.334750 ms)
 
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.765 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1765ms)
-		BeginReloadAssembly (282ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (144ms)
-		EndReloadAssembly (1317ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (602ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (325ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.2 MB.
-System memory in use after: 185.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2318.
-Total: 4.537941 ms (FindLiveObjects: 0.195921 ms CreateObjectMapping: 0.071141 ms MarkObjects: 4.167257 ms  DeleteObjects: 0.102323 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3361.900226 seconds.
-  path: Assets/AllScenes/AppScenes/Main Menu.unity
-  artifactKey: Guid(6bbda363b633e44559e0e62f2a300572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Main Menu.unity using Guid(6bbda363b633e44559e0e62f2a300572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a11715ef45aac1bccfc0b07c7439dd9') in 0.011614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.108295 seconds.
-  path: Assets/AllScenes/AppScenes/Citations.unity
-  artifactKey: Guid(e8d8200c34d7e45edb9644722b102d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Citations.unity using Guid(e8d8200c34d7e45edb9644722b102d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff02d77dc28b438b26c60c4ed7c9013') in 0.005635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 192.520689 seconds.
-  path: Assets/Scripts/KateScripts/TOFLinkScript.cs
-  artifactKey: Guid(ff9168a8c83e84073ade10b66b4c57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KateScripts/TOFLinkScript.cs using Guid(ff9168a8c83e84073ade10b66b4c57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d76e0369e5b7b1bfde0ed0ef33365ea') in 0.746485 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001645 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.567 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1568ms)
-		BeginReloadAssembly (183ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (1294ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (555ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (405ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (335ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.0 MB.
-System memory in use after: 190.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2321.
-Total: 4.610578 ms (FindLiveObjects: 0.205560 ms CreateObjectMapping: 0.093323 ms MarkObjects: 4.182125 ms  DeleteObjects: 0.127948 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 453.205326 seconds.
-  path: Assets/Scripts/KateScripts/TOFLinkScript.cs
-  artifactKey: Guid(ff9168a8c83e84073ade10b66b4c57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KateScripts/TOFLinkScript.cs using Guid(ff9168a8c83e84073ade10b66b4c57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea25e579b02da4117da06db68373b70b') in 0.014979 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003461 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.865 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1865ms)
-		BeginReloadAssembly (271ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (131ms)
-		EndReloadAssembly (1466ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (585ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (484ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (411ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.1 MB.
-System memory in use after: 191.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2323.
-Total: 4.775329 ms (FindLiveObjects: 0.247989 ms CreateObjectMapping: 0.120491 ms MarkObjects: 4.318250 ms  DeleteObjects: 0.086971 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 29.954674 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fae33e626f297f354bf8d14cf7e56d') in 0.797381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b3734de9a06278405edd88b410e426') in 0.644503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9a6dbab25d6543dfee2789e8fae952') in 0.384218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
-  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab2dc3a4077b37fe1bf25fc2e34219a') in 0.472076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2507f20aeeae8d98f86e4c2025440d37') in 0.144767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
-  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791ab560e119942f9942a177227dea76') in 0.031914 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003908 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.857 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1858ms)
-		BeginReloadAssembly (237ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (1495ms)
-			LoadAssemblies (131ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (645ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (458ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (387ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.9 MB.
-System memory in use after: 210.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2415.
-Total: 4.626382 ms (FindLiveObjects: 0.213007 ms CreateObjectMapping: 0.078003 ms MarkObjects: 4.238186 ms  DeleteObjects: 0.096027 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 152.021916 seconds.
-  path: Assets/Scripts/KateScripts/TransGVLinkScript.cs
-  artifactKey: Guid(6911f793cc38546978c9229b4546a0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KateScripts/TransGVLinkScript.cs using Guid(6911f793cc38546978c9229b4546a0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a6f5c71058d79a8e3ce1aacb6ed611') in 0.013366 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001557 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.024 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2024ms)
-		BeginReloadAssembly (169ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (1766ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (543ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (120ms)
-			SetupLoadedEditorAssemblies (694ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (558ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (60ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.2 MB.
-System memory in use after: 211.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2418.
-Total: 4.893988 ms (FindLiveObjects: 0.246132 ms CreateObjectMapping: 0.110099 ms MarkObjects: 4.445181 ms  DeleteObjects: 0.091012 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 56.229370 seconds.
-  path: Assets/Scripts/KateScripts/TransGVLinkScript.cs
-  artifactKey: Guid(6911f793cc38546978c9229b4546a0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KateScripts/TransGVLinkScript.cs using Guid(6911f793cc38546978c9229b4546a0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06640d4c1dd07d8eadd9e8e857f313c7') in 0.018452 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001657 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.748 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1748ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (101ms)
-		EndReloadAssembly (1466ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (604ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (465ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (379ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.4 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2420.
-Total: 6.701981 ms (FindLiveObjects: 0.667958 ms CreateObjectMapping: 0.225628 ms MarkObjects: 5.661672 ms  DeleteObjects: 0.144829 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 54.071271 seconds.
-  path: Assets/Scripts/KateScripts/MIVSDLinkScript.cs
-  artifactKey: Guid(bcc7f738a66944f04bb67dbbe5471fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KateScripts/MIVSDLinkScript.cs using Guid(bcc7f738a66944f04bb67dbbe5471fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938ce8ce4cf24a06a642f2d518814975') in 0.011510 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001551 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.064 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2064ms)
-		BeginReloadAssembly (173ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (1801ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (609ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (146ms)
-			SetupLoadedEditorAssemblies (676ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (566ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1831 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.6 MB.
-System memory in use after: 211.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2423.
-Total: 7.066266 ms (FindLiveObjects: 0.304260 ms CreateObjectMapping: 0.141519 ms MarkObjects: 6.524067 ms  DeleteObjects: 0.094413 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 63.483771 seconds.
-  path: Assets/Scripts/KateScripts/MIVSDLinkScript.cs
-  artifactKey: Guid(bcc7f738a66944f04bb67dbbe5471fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KateScripts/MIVSDLinkScript.cs using Guid(bcc7f738a66944f04bb67dbbe5471fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666f54d4c0cd022930c0391d04135cf6') in 0.019930 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001996 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.932 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1932ms)
-		BeginReloadAssembly (223ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (114ms)
-		EndReloadAssembly (1606ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (766ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (423ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (350ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1831 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2425.
-Total: 4.891996 ms (FindLiveObjects: 0.206939 ms CreateObjectMapping: 0.074442 ms MarkObjects: 4.521437 ms  DeleteObjects: 0.087914 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 48.731551 seconds.
-  path: Assets/Scripts/KateScripts/TALinkScript.cs
-  artifactKey: Guid(9d6c4ee726987464487dd12c544e286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KateScripts/TALinkScript.cs using Guid(9d6c4ee726987464487dd12c544e286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86a5b133e0f61e4bb3a8b414bb566bf') in 0.012230 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001799 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.904 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1904ms)
-		BeginReloadAssembly (213ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (114ms)
-		EndReloadAssembly (1584ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (622ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (146ms)
-			SetupLoadedEditorAssemblies (478ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (406ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.0 MB.
-System memory in use after: 212.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2428.
-Total: 5.797736 ms (FindLiveObjects: 0.379222 ms CreateObjectMapping: 0.152415 ms MarkObjects: 5.161750 ms  DeleteObjects: 0.102652 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 48.291493 seconds.
-  path: Assets/Scripts/KateScripts/TALinkScript.cs
-  artifactKey: Guid(9d6c4ee726987464487dd12c544e286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/KateScripts/TALinkScript.cs using Guid(9d6c4ee726987464487dd12c544e286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986109415aa4ab93a4878cf01db316d6') in 0.020530 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001818 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.814 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1814ms)
-		BeginReloadAssembly (232ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (1472ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (554ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (519ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (447ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.3 MB.
-System memory in use after: 212.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2430.
-Total: 4.860164 ms (FindLiveObjects: 0.201609 ms CreateObjectMapping: 0.093704 ms MarkObjects: 4.472794 ms  DeleteObjects: 0.090592 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005259 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  6.868 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6869ms)
-		BeginReloadAssembly (977ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (661ms)
-		EndReloadAssembly (4995ms)
-			LoadAssemblies (684ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1485ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (2000ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (1775ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (97ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2432.
-Total: 28.577540 ms (FindLiveObjects: 1.554087 ms CreateObjectMapping: 0.594035 ms MarkObjects: 26.236369 ms  DeleteObjects: 0.187207 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 266.919795 seconds.
-  path: Assets/AllScenes/AppScenes/Citations.unity
-  artifactKey: Guid(e8d8200c34d7e45edb9644722b102d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Citations.unity using Guid(e8d8200c34d7e45edb9644722b102d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b2a13ecaa62d5105471b0bbbc3623e') in 0.012626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.313395 seconds.
-  path: Assets/AllScenes/AppScenes/Credits.unity
-  artifactKey: Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllScenes/AppScenes/Credits.unity using Guid(4c53bbaa1396548b1b2754c52623cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08df2880ce923a1d1f635d54c1bf991') in 0.004056 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004403 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 17.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in 11.784 seconds
-Domain Reload Profiling:
-	ReloadAssembly (11784ms)
-		BeginReloadAssembly (1138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (59ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (551ms)
-		EndReloadAssembly (10210ms)
-			LoadAssemblies (601ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2462ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (1221ms)
-			SetupLoadedEditorAssemblies (3853ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (18ms)
-				BeforeProcessingInitializeOnLoad (207ms)
-				ProcessInitializeOnLoadAttributes (3589ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.7 MB.
-System memory in use after: 212.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2434.
-Total: 7.397139 ms (FindLiveObjects: 0.422466 ms CreateObjectMapping: 0.186278 ms MarkObjects: 6.553638 ms  DeleteObjects: 0.232675 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001748 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.365 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2365ms)
-		BeginReloadAssembly (224ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (119ms)
-		EndReloadAssembly (2005ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (774ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (693ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (588ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.9 MB.
-System memory in use after: 213.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2436.
-Total: 6.055020 ms (FindLiveObjects: 0.479240 ms CreateObjectMapping: 0.138116 ms MarkObjects: 5.341726 ms  DeleteObjects: 0.094302 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Prepare: number of updated asset objects reloaded= 14
+GetManagerFromContext: pointer to object of manager 'PlayerSettings' is NULL (table index 0)
+Fatal Error! GetManagerFromContext: pointer to object of manager 'PlayerSettings' is NULL (table index 0)
+Obtained 32 stack frames.
+#0  0x0000019dca35b0 in __pthread_kill
+#1  0x0000019dbe2850 in abort
+#2  0x000001043f39c8 in __cxx_global_var_init.2
+#3  0x00000103780960 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
+#4  0x00000103780498 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x000001037820d0 in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x00000106067e28 in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x0000010606832c in DebugStringToFile(DebugStringToFileData const&)
+#8  0x00000105477d94 in GetManagerFromContext(int)
+#9  0x00000103395c94 in GetEnvironmentDependencyValuesFromSettingsWithoutCustomDependencies(EnvironmentDependencyValues&)
+#10 0x000001033d5028 in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+#11 0x0000019db3aad4 in _dispatch_client_callout
+#12 0x0000019db30a18 in _dispatch_async_and_wait_invoke
+#13 0x0000019db3aad4 in _dispatch_client_callout
+#14 0x0000019db580d0 in _dispatch_main_queue_drain.cold.5
+#15 0x0000019db2ff48 in _dispatch_main_queue_drain
+#16 0x0000019db2fe84 in _dispatch_main_queue_callback_4CF
+#17 0x0000019dda6990 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#18 0x0000019dd7b7ec in __CFRunLoopRun
+#19 0x0000019de35e34 in _CFRunLoopRunSpecificWithOptions
+#20 0x000001aa86b790 in RunCurrentEventLoopInMode
+#21 0x000001aa86eab8 in ReceiveNextEventCommon
+#22 0x000001aa9f8b64 in _BlockUntilNextEventMatchingListInMode
+#23 0x000001a2694b5c in _DPSBlockUntilNextEventMatchingListInMode
+#24 0x000001a218ee48 in _DPSNextEvent
+#25 0x000001a2c59d0c in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#26 0x000001a2c59a18 in -[NSApplication(NSEventRouting) nextEventMatchingMask:untilDate:inMode:dequeue:]
+#27 0x000001a2187780 in -[NSApplication run]
+#28 0x000001a21736dc in NSApplicationMain
+#29 0x0000010440c850 in EditorMain(int, char const**)
+#30 0x0000010440cb34 in main
+#31 0x0000019d915d54 in start
