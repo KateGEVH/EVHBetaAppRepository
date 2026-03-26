@@ -7,9 +7,9 @@ Darwin version:          25.2.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-03-25T15:05:11Z
+Date:                    2026-03-25T22:36:26Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo" at "2026-03-25T15:05:11.22139Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo" at "2026-03-25T22:36:26.815503Z"
 
 COMMAND LINE ARGUMENTS:
 /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50088
+53466
 -licensingIpc
 LicenseClient-nicholasgustilo
 -force-metal
@@ -73,7 +73,7 @@ Successfully changed project path to: /Users/nicholasgustilo/Documents/GitHub/EV
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
 Player connection [8770284608]  Target information:
 
-Player connection [8770284608]  * "[IP] 192.168.1.81 [Port] 0 [Flags] 2 [Guid] 2389744009 [EditorId] 2389744009 [Version] 1048832 [Id] OSXEditor(0,Simon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8770284608]  * "[IP] 192.168.1.81 [Port] 0 [Flags] 2 [Guid] 4083312230 [EditorId] 4083312230 [Version] 1048832 [Id] OSXEditor(0,Simon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8770284608] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8770284608] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,33 +82,35 @@ Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1540, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1540, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-nicholasgustilo"
 [Licensing::IpcConnector] LicenseClient-nicholasgustilo channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0" at "2026-03-25T15:05:11.861114Z"
-[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 4835, path: "/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0" at "2026-03-25T22:36:27.910568Z"
+Active build profile path: `Assets/Settings/Build Profiles/iOS.asset`
+Got setting from build profile YAML, name `Color Space`, value `0`
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 95624, path: "/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              20455a180a9a46c983000625071db199
-  Correlation Id:          ef1d06fe6079cc501a26ec75ebc6cc22
-  External correlation Id: 3563931827470336942
+  Session Id:              a0333710d1ed4423a8b8185181bb5dec
+  Correlation Id:          53e9a11a7b60f6c5a5b4db7226480240
+  External correlation Id: 1947383286700278132
   Machine Id:              Bm9FVMovfwOWhrAevreLt82Tny4=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nicholasgustilo-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0-notifications" at "2026-03-25T15:05:11.870422Z"
-[Licensing::Module] Licensing Background thread has ended after 0.65s
-[Licensing::Module] Licensing is initialized (took 0.15s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nicholasgustilo-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0-notifications" at "2026-03-25T22:36:27.941596Z"
+[Licensing::Module] Licensing Background thread has ended after 1.13s
+[Licensing::Module] Licensing is initialized (took 0.02s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
@@ -120,6 +122,8 @@ Library Redirect Path: Library/
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+Got setting from build profile YAML, name `m_BuildTarget`, value `9`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/nicholasgustilo/Documents/GitHub/EVHBetaAppRepository/Embryonic-Virtual-Heart-EVHBetaTest1/Assets
@@ -130,23 +134,153 @@ Metal devices available: 1
 0: Apple M2 Pro (high power)
 Using device Apple M2 Pro (high power)
 Initializing Metal device caps: Apple M2 Pro
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
 Mac GPU Family: 2
 Apple GPU Family: 8
 MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `m_Development`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
 Initialize mono
 Mono path[0] = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56885
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56710
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
@@ -158,44 +292,115 @@ Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.011535 seconds.
+Registered in 0.005495 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 147 ms
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Android Extension - Scanning For ADB Devices 78 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.465 seconds
-Domain Reload Profiling: 886ms
-	BeginReloadAssembly (134ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (201ms)
-		LoadAssemblies (141ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (175ms)
-	FinalizeReload (466ms)
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 1101ms
+	BeginReloadAssembly (118ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (122ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (237ms)
+	FinalizeReload (596ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (252ms)
+			InitializePlatformSupportModulesInManaged (205ms)
 			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (60ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
 [CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+Got setting from build profile YAML, name `m_Development`, value `0`
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
@@ -207,6 +412,10 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+Launching external process: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
@@ -249,1107 +458,76 @@ Native extension for WebGL target not found
 [MODES] Loading mode Default (0) for mode-current-id-Embryonic Virtual Heart
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.448 seconds
-Domain Reload Profiling: 945ms
-	BeginReloadAssembly (84ms)
-		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
+- Finished resetting the current domain, in  0.407 seconds
+Domain Reload Profiling: 1594ms
+	BeginReloadAssembly (862ms)
+		DisableScriptedObjects (716ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (248ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (78ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (160ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (91ms)
 			BuildScriptInfoCaches (29ms)
-	FinalizeReload (448ms)
+	FinalizeReload (407ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (92ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Launching external process: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4198 unused Assets / (5.8 MB). Loaded Objects now: 4794.
-Memory consumption went from 116.3 MB to 110.5 MB.
-Total: 6.097750 ms (FindLiveObjects: 0.254708 ms CreateObjectMapping: 0.150167 ms MarkObjects: 4.386958 ms  DeleteObjects: 1.303083 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 693.773469 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  importAddress: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd084f78551c32533aadd1a53aea08b83') in 0.038226791 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7b4417a9be3ea8436893c6fe2b30f39 DependenciesID=d9db5375602675c926a97c787abe8792 StaticDependenciesID=02f2f145754d21c99257be40712f4a63 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
-  importAddress: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1c07bc0d821433e09caf044d6913f589') in 0.004753209 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=180371be5b6ae653ec274c052d513d58 DependenciesID=ea59754a9a55508de2a44606447bd077 StaticDependenciesID=97e2617c6e2d061a39156ef7584ef903 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Scripts/VideoPlayerAudioFix.cs
-  importAddress: Guid(732248b08a5da43f881926e47dee08a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/VideoPlayerAudioFix.cs using Guid(732248b08a5da43f881926e47dee08a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3a456d2139b0870d61e4bbcdf15f6fc0') in 0.005367083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1caabb097f7e49c20e0dce5ecf40c59b DependenciesID=b39f5b9f8c1f68a4c855421376af8d06 StaticDependenciesID=329617b42487cada193e23785de409e0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Plugins/iOS/AudioSessionFix.m
-  importAddress: Guid(739d9fcc13a6747cb827a87b4231358e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Plugins/iOS/AudioSessionFix.m using Guid(739d9fcc13a6747cb827a87b4231358e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '588ce2f0226d9f25159db26fbfa9faf1') in 0.00739725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23105d31fd3387e74ef9599846803cbb DependenciesID=141292d7ab99e5add659c9646d1c7f6a StaticDependenciesID=67949f3bd635f77d461675b3d5817a4f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  importAddress: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35ee551d427b8e386b42e32631e2f60e') in 0.056666917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d113373a4a3e459e62c258c38a46cfbf DependenciesID=88ab90c127d66d0d7ee6c1f19c6a2fba StaticDependenciesID=f24aa01374016caa59713b859ae89089 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
-  importAddress: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '85aca5170c864c5fe51b46381cba8857') in 0.001626708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dd730b56824840a57a0e3af1c03571f DependenciesID=d28afc64ffb5f426007afbfd9eaaa867 StaticDependenciesID=2936f04a1dd55b511cbbf5990c3e04da 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  importAddress: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eeb85002a6670a62b51804f956878352') in 0.001646375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7aa2cda6fa4ede96b2ac68e6771a5362 DependenciesID=f825658a74829254c0f2c0629933d5bc StaticDependenciesID=fc7b77840337b8921620e800bb6e7ccb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
-  importAddress: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db5aa86803678f3801490cc08c8303d5') in 0.001433917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f1b1563a7dcb31e5f3a93c98842ad19 DependenciesID=a578f7175b39fdf13d460b2e1918207e StaticDependenciesID=149e413d0571861b315a3fb4601c570f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  importAddress: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '050dd77d5c407635e77ae12b1069ba0f') in 0.025876375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c867d8f2827a1bb479c90a0dbae8ef80 DependenciesID=eab95bf821b61deb6f4c02571b334932 StaticDependenciesID=7fbc333fd2922ccce0f2444ebe688453 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-  importAddress: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c9988cdfee105c49e1ade5131165e292') in 0.001678917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a3be02fbef5a9bc3c1875334246fcf7 DependenciesID=7d77b5e9fe754698ef1729636c2edc2b StaticDependenciesID=54796b178d1ac5560e8bbc383702abfe 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
-  importAddress: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '937e8fc6e3fd014102e6a49a5953bda5') in 0.009099459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2da769e4f2bf93f7cb4bf6e16fb70f8a DependenciesID=76e12806a6065d62b500afd134e4cc95 StaticDependenciesID=d2e47b0202b7793cc774999f519fc45b 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
-  importAddress: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f2ad4ef05cba769b7c385762067014ef') in 0.003141708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=815fbb4d282641f09a93fec3fe3167f1 DependenciesID=afc5da04fdbbaec7384850431f6f9974 StaticDependenciesID=2e70c7206d9e4ef7fea767e8a8a682a4 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Plugins
-  importAddress: Guid(9c4358c3ee25d424f843e28d5c7d41a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Plugins using Guid(9c4358c3ee25d424f843e28d5c7d41a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '618fd19bc4de83eb3ff33b8e6b41ba6b') in 0.001094708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ca088b7f31899267bc1b3caf1ac48e7 DependenciesID=6cd3aaace542376ad1f01084f9a7f5fd StaticDependenciesID=19b60c1a63bf4d8e00e77c1f922d7744 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
-  importAddress: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '74f44da4f1080ea7faecd140ac4d9baf') in 0.001465625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3eaf49257a94753eb234ce69ef641bca DependenciesID=d8bf32c9fa39ab945d5c90b830d0ff41 StaticDependenciesID=ab070b6b75eb729a41727b84a827f49d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
-  importAddress: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1733f0a91187cb1439b3b07ff89e43d9') in 0.001291792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=033d58d0b4ee4adeb3f0d43b25c23523 DependenciesID=c5c47cfe28a26d40b5e6e41c3c22b780 StaticDependenciesID=3bff8146d83da5cd9352f71ee2ae9e2c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
-  importAddress: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a6787328e476fb33973ce625f8f70d9a') in 0.001540542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a10a9ae995256fad63230c1083507c51 DependenciesID=fd25dbe7ec0306ade7312a98820a00f3 StaticDependenciesID=a81e5bd42182df2690e5bdad867634f4 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
-  importAddress: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '91719d6327ba122a62459231e1cd84db') in 0.003084917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64f41862d1bbc05148d8568654a5e3cf DependenciesID=eba4c844979062d470c739f308d4f02a StaticDependenciesID=862a4b64adc3cbc3af4bdbed03dcd58a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  importAddress: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '44b3d4cdba478037d5d233d6c9d5306a') in 0.007259417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=147ab58b3bb48254106f9f4ac4b209ca DependenciesID=edf6f769862fa712861445a95d4b60f7 StaticDependenciesID=8517010cdcf415fd45c6afe5df9513bc 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 170.190364 seconds.
-  path: Assets/KateAssets/ModelAssetsetc/EVH Pic.png
-  importAddress: Guid(8f3e0519ba32448f0bd1e7b38716da97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KateAssets/ModelAssetsetc/EVH Pic.png using Guid(8f3e0519ba32448f0bd1e7b38716da97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2473911338657-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2473911338657-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
- -> (Import Result ID: '0180d56d03d9f5eb97f9a5290e942bc4') in 0.251196709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75047b781fa20f448ebd65a62d669bff DependenciesID=ac4c8613eba00ac1eeaa648c9c0f3a40 StaticDependenciesID=2521f603faaab9614d5dbe79c1206789 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060046 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  importAddress: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)xcrun: error: sh -c '/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -find metal-objdump 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
-xcrun: error: unable to find utility "metal-objdump", not a developer tool or in PATH
-error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
-error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
- -> (Import Result ID: 'be9f3f3ce50cf7769cf1034f6ede5906') in 2.785513834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1af99a980fa6fbb7090ae068caaae9f7 DependenciesID=f8d5550c24d523e075f16969dcc68c7e StaticDependenciesID=f962d5cc7b218af440b6341d8fe2f394 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2473911338657-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2473911338657-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Thread 0x176d1b000 may have been prematurely finalized
-Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.372 seconds
-Domain Reload Profiling: 840ms
-	BeginReloadAssembly (151ms)
-		DisableScriptedObjects (4ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (255ms)
-		LoadAssemblies (199ms)
-		AnalyzeDomain (97ms)
-			TypeCache.Refresh (7ms)
-			BuildScriptInfoCaches (86ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (373ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (140ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4196 unused Assets / (5.7 MB). Loaded Objects now: 4844.
-Memory consumption went from 128.1 MB to 122.4 MB.
-Total: 5.642917 ms (FindLiveObjects: 0.203917 ms CreateObjectMapping: 0.136375 ms MarkObjects: 4.210375 ms  DeleteObjects: 1.091709 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2099200 -> 2164736
-========================================================================
-Received Prepare
-Active build profile path: `Assets/Settings/Build Profiles/iOS.asset`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (4.1 MB). Loaded Objects now: 4844.
-Memory consumption went from 114.1 MB to 110.0 MB.
-Total: 18.073375 ms (FindLiveObjects: 0.224292 ms CreateObjectMapping: 0.084000 ms MarkObjects: 17.298375 ms  DeleteObjects: 0.464333 ms)
-
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Prepare: number of updated asset objects reloaded= 13
-Got setting from build profile YAML, name `Color Space`, value `0`
-========================================================================
-Received Prepare
-Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `0`
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `m_Development`, value `0`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (4.1 MB). Loaded Objects now: 4844.
-Memory consumption went from 113.7 MB to 109.6 MB.
-Total: 4.822125 ms (FindLiveObjects: 0.148291 ms CreateObjectMapping: 0.066083 ms MarkObjects: 4.191333 ms  DeleteObjects: 0.415834 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-Got setting from build profile YAML, name `Color Space`, value `1`
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  colorSpace: 0 -> 1
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2473911338657-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Begin MonoManager ReloadAssembly
-Got setting from build profile YAML, name `m_Development`, value `0`
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2473911338657-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Got setting from build profile YAML, name `Color Space`, value `1`
-Got setting from build profile YAML, name `Color Space`, value `1`
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 2473911338657-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Thread 0x16d273000 may have been prematurely finalized
-Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.403 seconds
-Domain Reload Profiling: 999ms
-	BeginReloadAssembly (231ms)
-		DisableScriptedObjects (22ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (201ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (60ms)
-				TypeCache.ScanAssembly (50ms)
-			BuildScriptInfoCaches (63ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (403ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (147ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4203 unused Assets / (5.5 MB). Loaded Objects now: 4878.
-Memory consumption went from 125.8 MB to 120.3 MB.
-Total: 6.238917 ms (FindLiveObjects: 0.260042 ms CreateObjectMapping: 0.152625 ms MarkObjects: 4.593167 ms  DeleteObjects: 1.232375 ms)
+Unloading 4206 unused Assets / (5.8 MB). Loaded Objects now: 4825.
+Memory consumption went from 118.4 MB to 112.6 MB.
+Total: 6.279792 ms (FindLiveObjects: 0.335459 ms CreateObjectMapping: 0.150250 ms MarkObjects: 4.473792 ms  DeleteObjects: 1.319750 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 476.284816 seconds.
-  path: Assets/VideoPlayerControl/Art/GradientBar.jpg
-  importAddress: Guid(1a92979a856b2334e9c7ad29e6131afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoPlayerControl/Art/GradientBar.jpg using Guid(1a92979a856b2334e9c7ad29e6131afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ff537d2454cd067f0917cf0c424e0faa') in 0.092774125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4086a452d6f70634634ecdc0423bdf02 DependenciesID=488d1820d3937853f28cf21ae4cb72d4 StaticDependenciesID=b278cb5c457c6dd185999975dd2b2630 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (4.1 MB). Loaded Objects now: 4824.
+Memory consumption went from 113.2 MB to 109.1 MB.
+Total: 83.223834 ms (FindLiveObjects: 1.854167 ms CreateObjectMapping: 0.069750 ms MarkObjects: 59.367250 ms  DeleteObjects: 21.930667 ms)
 
+Prepare: number of updated asset objects reloaded= 14
+GetManagerFromContext: pointer to object of manager 'PlayerSettings' is NULL (table index 0)
+Fatal Error! GetManagerFromContext: pointer to object of manager 'PlayerSettings' is NULL (table index 0)
+Obtained 32 stack frames.
+#0  0x0000019dca35b0 in __pthread_kill
+#1  0x0000019dbe2850 in abort
+#2  0x00000101beb9c8 in __cxx_global_var_init.2
+#3  0x00000100f78960 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
+#4  0x00000100f78498 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x00000100f7a0d0 in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x0000010385fe28 in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x0000010386032c in DebugStringToFile(DebugStringToFileData const&)
+#8  0x00000102c6fd94 in GetManagerFromContext(int)
+#9  0x00000100b8dc94 in GetEnvironmentDependencyValuesFromSettingsWithoutCustomDependencies(EnvironmentDependencyValues&)
+#10 0x00000100bcd028 in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
+#11 0x0000019db3aad4 in _dispatch_client_callout
+#12 0x0000019db30a18 in _dispatch_async_and_wait_invoke
+#13 0x0000019db3aad4 in _dispatch_client_callout
+#14 0x0000019db580d0 in _dispatch_main_queue_drain.cold.5
+#15 0x0000019db2ff48 in _dispatch_main_queue_drain
+#16 0x0000019db2fe84 in _dispatch_main_queue_callback_4CF
+#17 0x0000019dda6990 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#18 0x0000019dd7b7ec in __CFRunLoopRun
+#19 0x0000019de35e34 in _CFRunLoopRunSpecificWithOptions
+#20 0x000001aa86b790 in RunCurrentEventLoopInMode
+#21 0x000001aa86eab8 in ReceiveNextEventCommon
+#22 0x000001aa9f8b64 in _BlockUntilNextEventMatchingListInMode
+#23 0x000001a2694b5c in _DPSBlockUntilNextEventMatchingListInMode
+#24 0x000001a218ee48 in _DPSNextEvent
+#25 0x000001a2c59d0c in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#26 0x000001a2c59a18 in -[NSApplication(NSEventRouting) nextEventMatchingMask:untilDate:inMode:dequeue:]
+#27 0x000001a2187780 in -[NSApplication run]
+#28 0x000001a21736dc in NSApplicationMain
+#29 0x00000101c04850 in EditorMain(int, char const**)
+#30 0x00000101c04b34 in main
+#31 0x0000019d915d54 in start

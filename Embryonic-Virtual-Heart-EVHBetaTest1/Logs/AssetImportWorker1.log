@@ -7,9 +7,9 @@ Darwin version:          25.2.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-03-25T22:36:26Z
+Date:                    2026-03-26T15:04:47Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo" at "2026-03-25T22:36:26.815503Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo" at "2026-03-26T15:04:47.115897Z"
 
 COMMAND LINE ARGUMENTS:
 /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53466
+62830
 -licensingIpc
 LicenseClient-nicholasgustilo
 -force-metal
@@ -73,7 +73,7 @@ Successfully changed project path to: /Users/nicholasgustilo/Documents/GitHub/EV
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
 Player connection [8770284608]  Target information:
 
-Player connection [8770284608]  * "[IP] 192.168.1.81 [Port] 0 [Flags] 2 [Guid] 4083312230 [EditorId] 4083312230 [Version] 1048832 [Id] OSXEditor(0,Simon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8770284608]  * "[IP] 192.168.1.81 [Port] 0 [Flags] 2 [Guid] 3395719798 [EditorId] 3395719798 [Version] 1048832 [Id] OSXEditor(0,Simon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8770284608] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8770284608] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,35 +82,36 @@ Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1540, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
-[Licensing::Module] LicensingClient has failed validation; ignoring
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `0`
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1540, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-nicholasgustilo"
 [Licensing::IpcConnector] LicenseClient-nicholasgustilo channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0" at "2026-03-25T22:36:27.910568Z"
-Active build profile path: `Assets/Settings/Build Profiles/iOS.asset`
-Got setting from build profile YAML, name `Color Space`, value `0`
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 95624, path: "/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0" at "2026-03-26T15:04:47.468729Z"
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 73503, path: "/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              a0333710d1ed4423a8b8185181bb5dec
-  Correlation Id:          53e9a11a7b60f6c5a5b4db7226480240
-  External correlation Id: 1947383286700278132
+  Session Id:              978d1392196d4491a7cba4519e0fc35d
+  Correlation Id:          de7270f762750716e52114433a519992
+  External correlation Id: 8285859773760680078
   Machine Id:              Bm9FVMovfwOWhrAevreLt82Tny4=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nicholasgustilo-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0-notifications" at "2026-03-25T22:36:27.941596Z"
-[Licensing::Module] Licensing Background thread has ended after 1.13s
-[Licensing::Module] Licensing is initialized (took 0.02s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nicholasgustilo-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nicholasgustilo-6000.4.0-notifications" at "2026-03-26T15:04:47.477654Z"
+[Licensing::Module] Licensing Background thread has ended after 0.36s
+[Licensing::Module] Licensing is initialized (took 0.16s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
@@ -122,7 +123,7 @@ Got setting from build profile YAML, name `Color Space`, value `0`
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Got setting from build profile YAML, name `m_BuildTarget`, value `9`
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
 Got setting from build profile YAML, name `m_Subtarget`, value `0`
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -143,7 +144,7 @@ Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
 Got setting from build profile YAML, name `Color Space`, value `0`
-Got setting from build profile YAML, name `m_Development`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
@@ -260,6 +261,7 @@ Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
@@ -271,16 +273,20 @@ Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Initialize mono
 Mono path[0] = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56710
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56749
 CodeReloadManager initialized
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
@@ -292,9 +298,10 @@ Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.005495 seconds.
+Registered in 0.002193 seconds.
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -378,29 +385,38 @@ Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.595 seconds
-Domain Reload Profiling: 1101ms
-	BeginReloadAssembly (118ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (122ms)
-		AnalyzeDomain (257ms)
-			TypeCache.Refresh (256ms)
-				TypeCache.ScanAssembly (237ms)
-	FinalizeReload (596ms)
+- Finished resetting the current domain, in  0.370 seconds
+Domain Reload Profiling: 645ms
+	BeginReloadAssembly (52ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (51ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
+	FinalizeReload (370ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (205ms)
+			InitializePlatformSupportModulesInManaged (172ms)
 			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
+			ProcessInitializeOnLoadAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 [CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 Begin MonoManager ReloadAssembly
 Got setting from build profile YAML, name `m_Development`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-R5BS-U6PG-7J9Z-4MDZ-XXXX
@@ -415,7 +431,7 @@ Got setting from build profile YAML, name `m_Development`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Got setting from build profile YAML, name `Color Space`, value `0`
 Launching external process: /Users/nicholasgustilo/Documents/unity/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
@@ -458,76 +474,31 @@ Native extension for WebGL target not found
 [MODES] Loading mode Default (0) for mode-current-id-Embryonic Virtual Heart
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.407 seconds
-Domain Reload Profiling: 1594ms
-	BeginReloadAssembly (862ms)
-		DisableScriptedObjects (716ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (28ms)
+- Finished resetting the current domain, in  0.385 seconds
+Domain Reload Profiling: 872ms
+	BeginReloadAssembly (177ms)
+		DisableScriptedObjects (73ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (254ms)
-		LoadAssemblies (160ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (91ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (150ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (78ms)
 			BuildScriptInfoCaches (29ms)
-	FinalizeReload (407ms)
+	FinalizeReload (385ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (150ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4206 unused Assets / (5.8 MB). Loaded Objects now: 4825.
-Memory consumption went from 118.4 MB to 112.6 MB.
-Total: 6.279792 ms (FindLiveObjects: 0.335459 ms CreateObjectMapping: 0.150250 ms MarkObjects: 4.473792 ms  DeleteObjects: 1.319750 ms)
+Unloading 4201 unused Assets / (6.3 MB). Loaded Objects now: 4825.
+Memory consumption went from 117.9 MB to 111.6 MB.
+Total: 5.528250 ms (FindLiveObjects: 0.203042 ms CreateObjectMapping: 0.129334 ms MarkObjects: 4.053291 ms  DeleteObjects: 1.142166 ms)
 
-========================================================================
-Received Prepare
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (4.1 MB). Loaded Objects now: 4824.
-Memory consumption went from 113.2 MB to 109.1 MB.
-Total: 83.223834 ms (FindLiveObjects: 1.854167 ms CreateObjectMapping: 0.069750 ms MarkObjects: 59.367250 ms  DeleteObjects: 21.930667 ms)
-
-Prepare: number of updated asset objects reloaded= 14
-GetManagerFromContext: pointer to object of manager 'PlayerSettings' is NULL (table index 0)
-Fatal Error! GetManagerFromContext: pointer to object of manager 'PlayerSettings' is NULL (table index 0)
-Obtained 32 stack frames.
-#0  0x0000019dca35b0 in __pthread_kill
-#1  0x0000019dbe2850 in abort
-#2  0x00000101beb9c8 in __cxx_global_var_init.2
-#3  0x00000100f78960 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
-#4  0x00000100f78498 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
-#5  0x00000100f7a0d0 in LogToConsoleImplementation(DebugStringToFileData const&)
-#6  0x0000010385fe28 in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
-#7  0x0000010386032c in DebugStringToFile(DebugStringToFileData const&)
-#8  0x00000102c6fd94 in GetManagerFromContext(int)
-#9  0x00000100b8dc94 in GetEnvironmentDependencyValuesFromSettingsWithoutCustomDependencies(EnvironmentDependencyValues&)
-#10 0x00000100bcd028 in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
-#11 0x0000019db3aad4 in _dispatch_client_callout
-#12 0x0000019db30a18 in _dispatch_async_and_wait_invoke
-#13 0x0000019db3aad4 in _dispatch_client_callout
-#14 0x0000019db580d0 in _dispatch_main_queue_drain.cold.5
-#15 0x0000019db2ff48 in _dispatch_main_queue_drain
-#16 0x0000019db2fe84 in _dispatch_main_queue_callback_4CF
-#17 0x0000019dda6990 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
-#18 0x0000019dd7b7ec in __CFRunLoopRun
-#19 0x0000019de35e34 in _CFRunLoopRunSpecificWithOptions
-#20 0x000001aa86b790 in RunCurrentEventLoopInMode
-#21 0x000001aa86eab8 in ReceiveNextEventCommon
-#22 0x000001aa9f8b64 in _BlockUntilNextEventMatchingListInMode
-#23 0x000001a2694b5c in _DPSBlockUntilNextEventMatchingListInMode
-#24 0x000001a218ee48 in _DPSNextEvent
-#25 0x000001a2c59d0c in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
-#26 0x000001a2c59a18 in -[NSApplication(NSEventRouting) nextEventMatchingMask:untilDate:inMode:dequeue:]
-#27 0x000001a2187780 in -[NSApplication run]
-#28 0x000001a21736dc in NSApplicationMain
-#29 0x00000101c04850 in EditorMain(int, char const**)
-#30 0x00000101c04b34 in main
-#31 0x0000019d915d54 in start
