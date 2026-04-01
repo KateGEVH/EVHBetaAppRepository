@@ -31,34 +31,34 @@ public class TouchPointTextActivatorScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (openpopup1 == isActiveAndEnabled)
+        if (openpopup1 != null && openpopup1.activeSelf)
             openpopup1.SetActive(false);
 
-        if (openpopup2 == isActiveAndEnabled)
+        if (openpopup2 != null && openpopup2.activeSelf)
             openpopup2.SetActive(false);
 
-        if (openpopup3 == isActiveAndEnabled)
+        if (openpopup3 != null && openpopup3.activeSelf)
             openpopup3.SetActive(false);
 
-        if (openpopup4 == isActiveAndEnabled)
+        if (openpopup4 != null && openpopup4.activeSelf)
             openpopup4.SetActive(false);
 
-        if (openpopup5 == isActiveAndEnabled)
+        if (openpopup5 != null && openpopup5.activeSelf)
             openpopup5.SetActive(false);
 
-        if (openpopup6 == isActiveAndEnabled)
+        if (openpopup6 != null && openpopup6.activeSelf)
             openpopup6.SetActive(false);
 
-        if (openpopup7 == isActiveAndEnabled)
+        if (openpopup7 != null && openpopup7.activeSelf)
             openpopup7.SetActive(false);
 
-        if (openpopup8 == isActiveAndEnabled)
+        if (openpopup8 != null && openpopup8.activeSelf)
             openpopup8.SetActive(false);
 
-        if (openpopup9 == isActiveAndEnabled)
+        if (openpopup9 != null && openpopup9.activeSelf)
             openpopup9.SetActive(false);
 
-        if (openpopup10 == isActiveAndEnabled)
+        if (openpopup10 != null && openpopup10.activeSelf)
             openpopup10.SetActive(false);
 
         textpopup.SetActive(true);
